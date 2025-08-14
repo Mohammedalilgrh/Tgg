@@ -25,9 +25,9 @@ logging.basicConfig(
 class TelegramScraper:
     def __init__(self):
         # Replace these with your values
-        self.api_id = "YOUR_API_ID"  # Get from my.telegram.org
-        self.api_hash = "YOUR_API_HASH"  # Get from my.telegram.org
-        self.phone = "YOUR_PHONE_NUMBER"  # Your phone number
+        self.api_id = "21706160"  # Get from my.telegram.org
+        self.api_hash = "548b91f0e7cd2e44bbee05190620d9f4"  # Get from my.telegram.org
+        self.phone = "+96407762476460"  # Your phone number
         
         self.client = TelegramClient('session', self.api_id, self.api_hash)
         self.scraped_users = []
